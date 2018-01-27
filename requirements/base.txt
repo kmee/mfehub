@@ -3,6 +3,10 @@ Flask-Login == 0.3.0
 Flask-RESTful == 0.3.3
 Flask-WTF == 0.12
 Unidecode == 0.04.19
+-e git://github.com/kmee/mfesat.git@0.1#egg=mfesat
+-e git://github.com/kmee/satcfe.git@mfe#egg=satcfe
+-e git://github.com/kmee/satextrato.git@master#egg=satextrato
+-e git://github.com/kmee/pybrasil.git@cde9f0463b056c9b1d97c6fbf563fdd8f753fdfc#egg=pybrasil
 satcomum >= 0.0.9
-satcfe >= 0.0.8
 pyescpos >= 0.0.13
+gunicorn==19.7.1
