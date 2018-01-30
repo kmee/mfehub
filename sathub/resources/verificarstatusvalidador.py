@@ -42,7 +42,7 @@ class VerificarStatusValidador(restful.Resource):
     def post(self):
         args = parser.parse_args()
 
-        numero_caixa = args['numero_caixa']
+        numero_caixa = int(args['numero_caixa'])
         cnpj = args['cnpj']
         id_fila = args['id_fila']
         chave_acesso_validador = args['chave_acesso_validador']
