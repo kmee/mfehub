@@ -92,8 +92,8 @@ DEFAULT_CONFIG = {
         'usuario': 'sathub',
         'senha': 'sathub',
         'descricao': 'Equipamento SAT 1',
-        'codigo_ativacao': '12345678',
-        'caminho_biblioteca': '/opt/fabricante/libsat.so',
+        'codigo_ativacao': '123456789',
+        'caminho_biblioteca': '/home/faturamento/Integrador/',
         'convencao_chamada': satcomum.constantes.STANDARD_C,
     }
 
